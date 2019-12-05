@@ -1,11 +1,8 @@
 package com.tripactions.articles.domain;
 
 import com.tripactions.SchedulersModule;
-import com.tripactions.articles.data.Article;
 import com.tripactions.articles.data.ArticlesRepository;
 import com.tripactions.base.data.UseCase;
-
-import java.util.List;
 
 import javax.inject.Inject;
 import javax.inject.Named;

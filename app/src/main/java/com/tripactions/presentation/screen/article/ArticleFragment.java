@@ -81,8 +81,8 @@ public class ArticleFragment extends TripActionsFragment<ArticleViewModel> {
     }
 
     @Override
-    public void onPause() {
-        super.onPause();
+    public void onDestroy() {
+        super.onDestroy();
         ((MainActivity)getActivity()).showToolbar();
     }
 

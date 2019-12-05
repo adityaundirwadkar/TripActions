@@ -2,11 +2,8 @@ package com.tripactions.presentation;
 
 import androidx.lifecycle.ViewModel;
 
-import com.tripactions.articles.data.Article;
 import com.tripactions.articles.domain.SearchArticlesUseCase;
 import com.tripactions.presentation.screens.news.NewsNavigator;
-
-import java.util.List;
 
 import javax.inject.Inject;
 

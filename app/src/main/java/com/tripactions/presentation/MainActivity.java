@@ -1,15 +1,11 @@
 package com.tripactions.presentation;
 
-import android.content.Context;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
-import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
-import android.view.inputmethod.InputMethodManager;
-import android.widget.TextView;
 
 import androidx.appcompat.widget.AppCompatEditText;
 import androidx.fragment.app.Fragment;
@@ -24,8 +20,6 @@ import com.tripactions.base.presentation.TripActionsActivity;
 import com.tripactions.base.presentation.TripActionsFragment;
 import com.yalantis.jellytoolbar.listener.JellyListener;
 import com.yalantis.jellytoolbar.widget.JellyToolbar;
-
-import org.openjdk.tools.javac.Main;
 
 import java.util.List;
 

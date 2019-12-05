@@ -3,7 +3,6 @@ package com.tripactions.presentation.screens.news;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-import com.tripactions.articles.data.Article;
 import com.tripactions.articles.data.ArticlesRepository;
 import com.tripactions.articles.data.response.Doc;
 import com.tripactions.articles.domain.GetArticlesSearchStatusUseCase;
